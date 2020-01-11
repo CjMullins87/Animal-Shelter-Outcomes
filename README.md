@@ -14,7 +14,7 @@ After cleaning and modifying the data, I attempt several modeling methods includ
 
 ### Supplementary Materials
 
-N/A
+1. [Executive Summary](/Executive%20Summary.pdf)
 
 ### Results
 
@@ -25,3 +25,7 @@ After first fitting a simple decision tree, I find that both of the features I e
 Using this simple decision tree model as a baseline, I took its 78% as a minimum result for the next sets of classifiers. After testing multiple models, the best performing one was found using XG Boost, with an accuracy of 82%; the next best performing model was a random forest which scored 81% accuracy.
 
 While the random forest was initially overfit, gridsearch was used to fine tune and select optimal paramaters to successfully yield that level of accuracy.
+
+In exploring the efficacy of our most accurate model, it was found that the model was less successful at predicting whether the animal would die or go missing, but overall the model was able to broadly and accurately anticipate an outcome.
+
+![.](/3.PNG)
