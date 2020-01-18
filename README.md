@@ -28,4 +28,4 @@ While the random forest was initially overfit, gridsearch was used to fine tune 
 
 In exploring the efficacy of our most accurate model, it was found that the model was less successful at predicting whether the animal would die or go missing, but overall the model was able to broadly and accurately anticipate an outcome.
 
-![.](/3.PNG)
+![.](/2.PNG)
